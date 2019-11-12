@@ -1,0 +1,32 @@
+.nav.nav-tabs {
+  position: relative;
+  padding: 1em;
+  margin-bottom: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  display: -webkit-box;
+}
+.nav.nav-tabs .nav-item {
+  padding: 0;
+  padding-right: 1em;
+  cursor: pointer;
+}
+.nav.nav-tabs .nav-item .nav-link {
+  background-color: transparent;
+  border: 0;
+  font-weight: 700;
+  color: black;
+  padding: 0;
+  padding-bottom: 0.4em;
+  box-shadow: inset 0 -0.313em 0 0 #eeeeee;
+  /* -5/16 */
+  transition: all 0.2s ease-out;
+}
+.nav.nav-tabs .nav-item .nav-link.active {
+  box-shadow: inset 0 -0.313em 0 0 red;
+  /* -5/16 */
+}
+
+.disabled{
+  color: lightgrey !important;
+}

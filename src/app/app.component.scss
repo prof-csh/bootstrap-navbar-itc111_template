@@ -1,0 +1,18 @@
+@import url('https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css');
+
+body{
+  font-size: 16px;
+  font-family: Lato;
+}
+.header{
+  background-color: #94a00f;
+  height: 8em;
+  color: white;
+}
+.wrapper {
+  display: block;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 15em;
+}
